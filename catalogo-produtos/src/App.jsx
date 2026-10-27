@@ -9,7 +9,7 @@ export default function App() {
   const [search, setSearch] = useState('');
 
   const filteredProducts = initialProducts.filter((product) =>
-    product.nome.toLocaleLowerCase('pt-BR').includes(
+    product.descricao.toLocaleLowerCase('pt-BR').includes(
       search.toLocaleLowerCase('pt-BR')
     )
   );

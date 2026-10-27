@@ -5,3 +5,4 @@ export const initialProducts = [
   { id: 4, nome: 'Webcam HD', preco: 159, categoria: 'Acessórios', descricao: 'Webcam para videoconferências.' }
 ];
 
+export default initialProducts;
